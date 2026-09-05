@@ -281,6 +281,7 @@ enum DefaultsKey {
     static let panelToggleKeyboardLight = "panelToggleKeyboardLight"
     // Keep the existing storage key so moving the row preserves its visibility choice.
     static let panelToggleMicMute = "panelUtilityMicMute"
+    static let panelToggleExtraBrightness = "panelToggleExtraBrightness"
     static let panelToggleEmptyTrash = "panelToggleEmptyTrash"
     static let panelToggleEjectDisks = "panelToggleEjectDisks"
     static let panelToggleHiddenFiles = "panelToggleHiddenFiles"
@@ -1057,6 +1058,7 @@ enum Defaults {
         DefaultsKey.panelToggleDarkMode: true,
         DefaultsKey.panelToggleKeyboardLight: true,
         DefaultsKey.panelToggleMicMute: true,
+        DefaultsKey.panelToggleExtraBrightness: true,
         DefaultsKey.panelToggleEmptyTrash: true,
         DefaultsKey.panelToggleEjectDisks: true,
         DefaultsKey.panelToggleHiddenFiles: true,
